@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:text="@string/login"
+        android:id="@+id/buttonLogin"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:text="@string/register"
+        android:id="@+id/buttonRegister"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:text="@string/bind"
+        android:id="@+id/buttonBind"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:text="@string/pay"
+        android:id="@+id/buttonPay"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:text="@string/getUser"
+        android:id="@+id/buttonGetUser"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
+

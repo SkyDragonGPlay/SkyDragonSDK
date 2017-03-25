@@ -1,0 +1,7 @@
+include ':GplayAsyncHttp'
+project(':GplayAsyncHttp').projectDir = new File('../GplaySDK/library/GplayAsyncHttp')
+include ':GplaySkyDragonSDK'
+include ':GplayChannelH5PaySDK'
+include ':GplayChannelH5PaySDKDemo'
+include ':GplayChannelPaySDK'
+include ':GplayChannelPaySDKDemo'

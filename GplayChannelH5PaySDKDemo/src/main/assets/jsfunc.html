@@ -1,0 +1,40 @@
+<html>  
+<body>  
+<script language="javascript">  
+
+function java2js(isHide) {
+ var x = document.getElementById('div');  
+ if(isHide==0)  
+  x.className = "";  
+ else  
+  x.className = "hide";  
+}  
+  
+function set_token() {
+console.log('testtttt');
+console.log("Sample log");
+    HybridJSInterface.setToken("hahhahahahh");
+}
+
+function get_token() {
+    HybridJSInterface.getToken();
+}
+
+function bind_callback() {
+    HybridJSInterface.bindCallback(10, "hello");
+}
+</script>
+<style type="text/css">  
+.hide {  
+display:none;  
+}  
+</style>  
+  
+<a href="#" onClick="set_token()">setToken</a>
+<a href="#" onClick="get_token()">getToken</a>
+<a href="#" onClick="bind_callback()">bindCallback</a>
+
+<div class="hide" id="div">  
+<font color="#FF0000">this is a hide div~~~~</font>  
+</div>  
+</body>  

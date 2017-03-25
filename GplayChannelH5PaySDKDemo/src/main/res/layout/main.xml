@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:onClick="onLogin"
+        android:text="@string/login"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:onClick="onRegister"
+        android:text="@string/register"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:onClick="onBindPhone"
+        android:text="@string/bind"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:onClick="onPay"
+        android:text="@string/pay"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:onClick="onUserInfo"
+        android:text="@string/getUser"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
+
